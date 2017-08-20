@@ -1,6 +1,9 @@
 # OpenWeather
+![OpenWeather screenshot](https://www.codeproject.com/KB/WPF/630248/Screenshot_Budapest.png)
 
 OpenWeather is a WPF-MVVM weather forecast application that displays three day (current day + two days) forecast for a particular location.
+
+You can read more about the project code [here](https://www.codeproject.com/Articles/630248/WPF-OpenWeather).
 
 # Requirements
 - OpenWeatherMap [App ID](http://openweathermap.org/appid),
