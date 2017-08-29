@@ -10,11 +10,11 @@ You can read more about the project code [here](https://www.codeproject.com/Arti
 - Visual Studio 2015/17,
 
 Once you get your App ID insert it as the value of the `APP_ID` constant in the `OpenWeatherMapService` class.
-```
+```csharp
 private const string APP_ID = "PLACE-YOUR-APP-ID-HERE";
 ```
 
-```
+```vb.net
 Private Const APP_ID As String = "PLACE-YOUR-APP-ID-HERE"
 ```
 
