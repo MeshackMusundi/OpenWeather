@@ -50,8 +50,20 @@
             </DataTemplate>
 
             <DataTemplate x:Key="ForecastDataTemplate">
-                <Border Height="200" Width="140" Margin="0,0,-1,0" SnapsToDevicePixels="True" 
-                        Background="{StaticResource PrimaryDarkBrush}">
+                <DataTemplate.Resources>
+                    <Storyboard x:Key="OnTemplateLoaded">
+                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="RootBorder">
+                            <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                            <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1">
+                                <EasingDoubleKeyFrame.EasingFunction>
+                                    <QuinticEase EasingMode="EaseOut"/>
+                                </EasingDoubleKeyFrame.EasingFunction>
+                            </EasingDoubleKeyFrame>
+                        </DoubleAnimationUsingKeyFrames>
+                    </Storyboard>
+                </DataTemplate.Resources>
+                <Border x:Name="RootBorder" Height="200" Width="140" Margin="0,0,-1,0" SnapsToDevicePixels="True" 
+                        Background="{StaticResource PrimaryDarkBrush}" RenderTransformOrigin="0.5,0.5">
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto"/>

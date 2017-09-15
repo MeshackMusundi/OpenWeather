@@ -29,3 +29,6 @@ F:\Projects\OpenWeather\OpenWeather\OpenWeatherCS\obj\Debug\OpenWeather.g.resour
 F:\Projects\OpenWeather\OpenWeather\OpenWeatherCS\obj\Debug\OpenWeather.exe
 F:\Projects\OpenWeather\OpenWeather\OpenWeatherCS\obj\Debug\OpenWeather.pdb
 F:\Projects\OpenWeather\OpenWeather\OpenWeatherCS\obj\Debug\OpenWeatherCS.csprojResolveAssemblyReference.cache
+F:\Projects\OpenWeather\Github\OpenWeather\OpenWeatherCS\bin\Debug\OpenWeather.exe.config
+F:\Projects\OpenWeather\Github\OpenWeather\OpenWeatherCS\obj\Debug\OpenWeather.exe
+F:\Projects\OpenWeather\Github\OpenWeather\OpenWeatherCS\obj\Debug\OpenWeather.pdb
