@@ -6,7 +6,7 @@ OpenWeather is a WPF-MVVM weather forecast application that displays three day (
 You can read more about the project code [here](https://www.codeproject.com/Articles/630248/WPF-OpenWeather).
 
 # Requirements
-- OpenWeatherMap [App ID](http://openweathermap.org/appid),
+- OpenWeatherMap [App ID](http://openweathermap.org/appid) (You will require an app ID that works with the 16 day API),
 - Visual Studio 2015/17,
 
 Once you get your App ID insert it as the value of the `APP_ID` constant in the `OpenWeatherMapService` class.
